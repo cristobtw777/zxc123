@@ -54,14 +54,18 @@
                 </div>
             <div class="send_us">
                 <div class="container_send">
-                    <form action="#">        
+                    <form action="/aloalo" method="post">        
                         <h4 class="h4_send">SEND US MESSAGE</h4>
+
                         <p class="input_name">Full Name</p>
-                        <label><input class="input_name_block" type="text" placeholder="Your Name"></label>
+                        <label><input class="input_name_block" type="text" placeholder="Your Name" name="name_s"></label>
+
                         <p class="input_mail">Email</p>
-                        <label><input class="input_mail_block" type="email" placeholder="Your E-mail"></label>
+                        <label><input class="input_mail_block" type="email" placeholder="Your E-mail" name="email"></label>
+
                         <p class="input_message">Message</p>
-                        <textarea class="input_message_block" placeholder="Your Message"></textarea>
+                        <textarea class="input_message_block" placeholder="Your Message" name="message_s"></textarea>
+
                         <button class="butt" type="submit">SUBMIT</button>
                     </form>
                 </div>
